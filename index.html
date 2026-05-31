@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kai Boomgaarden | Portfolio - Fachinformatiker für Anwendungsentwicklung</title>
+    <meta name="description" content="Portfolio von Kai Boomgaarden – Angehender Fachinformatiker für Anwendungsentwicklung. Projekte in Java, Linux-Administration und mobiler Entwicklung.">
+    <!-- Google Fonts: Inter for a modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">KaBoom<span>-dev.de</span></a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#about">Über mich</a>
+                <a href="#skills">Fähigkeiten</a>
+                <a href="#projects">Projekte</a>
+                <a href="#timeline">Kursplan</a>
+                <a href="#contact" class="btn btn-primary nav-cta">Kontakt</a>
+            </nav>
+            <button class="mobile-menu-toggle" id="menuToggle" aria-label="Menü öffnen">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge">Bereit für ein 6-monatiges Praktikum ab 25.08.2026</span>
+                <h1>Pragmatischer Anpacker <br>&amp; leidenschaftlicher <span class="highlight">Java-Entwickler</span></h1>
+                <p class="hero-lead">
+                    Umschüler zum Fachinformatiker für Anwendungsentwicklung. Mit über 20 Jahren praktischer Erfahrung im Handwerk bringe ich eine ausgeprägte Problemlösungskompetenz und ein tiefes Verständnis für stabile System-Infrastrukturen in die Softwareentwicklung ein.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Meine Projekte <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Kontakt aufnehmen</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="photo-frame">
+                    <!-- Placeholder image that Kai can replace in assets/images/portrait.jpg -->
+                    <img src="assets/images/portrait.jpg" alt="Kai Boomgaarden" class="profile-img" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=500&h=500&q=80';">
+                    <div class="frame-accent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Wer ich bin</span>
+                <h2>Vom Handwerk in die Welt des Codes</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Nach über 20 Jahren im Handwerk (Produktion und Montage) habe ich im September 2025 den Schritt gewagt, meine lebenslange IT-Leidenschaft zum Beruf zu machen. Ich absolviere derzeit eine strukturierte, IHK-konforme Umschulung zum Fachinformatiker für Anwendungsentwicklung bei der WBS TRAINING AG.
+                    </p>
+                    <p>
+                        <strong>Warum der Wechsel?</strong> Ich liebe es, Dinge von Grund auf zu erschaffen, komplexe Systeme zu durchdringen und Fehler systematisch zu beheben. Im Handwerk habe ich gelernt, dass man Probleme pragmatisch anpackt und erst aufgibt, wenn die Lösung absolut stabil steht. Genau diese anpackende, zielorientierte Mentalität bringe ich in die Softwareentwicklung ein. Wenn ein Code nicht läuft, fummle ich mich so lange durch Dokumentationen und Logfiles, bis der Fehler behoben ist.
+                    </p>
+                    <p>
+                        Mein Ziel ist eine langfristige Karriere als Entwickler in meiner Heimatregion Windeck – um nicht nur meinen Traum zu verwirklichen, sondern auch um meinem Sohn zu beweisen, dass es nie zu spät ist, sich beruflich neu zu erfinden und für seine Ziele zu kämpfen.
+                    </p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <h3>Praktiker-Mentalität</h3>
+                        <p>Über 20 Jahre Arbeitsroutine bedeuten Zuverlässigkeit, Teamfähigkeit, Belastbarkeit und schnelles Mitdenken im Betrieb.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <h3>Systematische Fehlersuche</h3>
+                        <p>Egal ob Hardware, Linux-Server oder Java-Ausnahmen – ich analysiere logisch und löse Probleme eigenständig.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Mein Werkzeugkasten</span>
+                <h2>Fähigkeiten &amp; Technologien</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Category 1 -->
+                <div class="skills-card">
+                    <div class="skills-icon"><i class="fa-brands fa-java"></i></div>
+                    <h3>Softwareentwicklung</h3>
+                    <p>Solides theoretisches und praktisches Fundament in der objektorientierten Softwareentwicklung.</p>
+                    <ul class="skills-list">
+                        <li>Java (OOP, UML, Streams)</li>
+                        <li>JavaScript (Basic Web-Dev)</li>
+                        <li>Luau (Scripting)</li>
+                        <li>HTML5 / CSS3</li>
+                    </ul>
+                </div>
+                <!-- Skill Category 2 -->
+                <div class="skills-card">
+                    <div class="skills-icon"><i class="fa-solid fa-server"></i></div>
+                    <h3>System &amp; Infrastruktur</h3>
+                    <p>Erfahrung im Aufsetzen und der Administration eigener Serverumgebungen und Systemintegration.</p>
+                    <ul class="skills-list">
+                        <li>Ubuntu Linux (headless)</li>
+                        <li>Terminal (Bash / SSH)</li>
+                        <li>Homeserver-Administration</li>
+                        <li>Netzwerke &amp; Portfreigaben</li>
+                    </ul>
+                </div>
+                <!-- Skill Category 3 -->
+                <div class="skills-card">
+                    <div class="skills-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>Tools &amp; Workflows</h3>
+                    <p>Einsatz moderner Entwicklerwerkzeuge für effiziente Programmierung und Releasing.</p>
+                    <ul class="skills-list">
+                        <li>Git &amp; GitHub (Versionierung)</li>
+                        <li>Google Play Console (Testing)</li>
+                        <li>KI-unterstützte Entwicklung</li>
+                        <li>3D-Druck / CAD</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Praxisbeispiele</span>
+                <h2>Ausgewählte Projekte</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: Minecraft Java Plugin -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spigot API</span>
+                            <span class="tag">Git</span>
+                        </div>
+                        <h3>Custom Java Minecraft-Plugin</h3>
+                        <p class="project-desc">
+                            Entwicklung eines eigenen, funktionalen Spigot-Plugins zur Implementierung neuer Spielmechaniken auf einem privaten Minecraft-Server. Umsetzen von sauberem objektorientierten Code, Event-Handling und Datenspeicherung.
+                        </p>
+                        <div class="project-features">
+                            <strong>Lösung:</strong> Vertiefung von Java OOP, Einarbeitung in komplexe Fremd-APIs und Strukturierung mittels Maven.
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/KaBoomStudios/KaBoomEnchants" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Code auf GitHub ansehen</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Linux Homeserver -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Ubuntu Server</span>
+                            <span class="tag">Terminal</span>
+                            <span class="tag">SSH</span>
+                            <span class="tag">DevOps</span>
+                        </div>
+                        <h3>Ubuntu-Homeserver &amp; Netzwerk-Labor</h3>
+                        <p class="project-desc">
+                            Eigenständiger Aufbau, Konfiguration und Wartung eines lokalen Linux-Servers headless über SSH zur Haltung verschiedener Netzwerkdienste wie Jellyfin-Medienserver und Minecraft-Server.
+                        </p>
+                        <div class="project-features">
+                            <strong>Lösung:</strong> Sichere Terminal-Administration, Benutzer- und Rechteverwaltung, Absicherung des Netzwerks über Portfreigaben und DDNS.
+                        </div>
+                        <div class="project-links">
+                            <span class="project-link-inactive"><i class="fa-solid fa-circle-check"></i> Live im Heimnetzwerk im Einsatz</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Drohnenführerschein-App -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Android SDK</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">AI/Vibe-Coding</span>
+                            <span class="tag">Play Store</span>
+                        </div>
+                        <h3>Drohnenführerschein Android-App</h3>
+                        <p class="project-desc">
+                            Konzeption und Umsetzung einer mobilen Android-Lern-App zur Vorbereitung auf den EU-Drohnenführerschein. Das Projekt kombinierte moderne, KI-gestützte Codegenerierung mit nativem Android SDK.
+                        </p>
+                        <div class="project-features">
+                            <strong>Lösung:</strong> Erstellung eines intuitiven Fragenkatalogs, lokaler Datenhaltung und wertvolle Praxiserfahrung mit dem Google Play Store Veröffentlichungsprozess.
+                        </div>
+                        <div class="project-links">
+                            <span class="project-link-inactive"><i class="fa-solid fa-wrench"></i> Release-Management-Erfahrung</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline / Kursplan Section -->
+    <section id="timeline" class="timeline-section section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Theoretisches Fundament</span>
+                <h2>Ausbildungs- &amp; Kursplan</h2>
+                <p class="section-intro">Mein strukturierter IHK-Umschulungs-Fahrplan bei der WBS TRAINING AG (Einstieg Sept. 2025 – Abschluss Sept. 2027)</p>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item left completed">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Sept 2025 - Dez 2025</span>
+                        <h3>IT-Grundlagen &amp; Software-Struktur</h3>
+                        <p>Einführung in die Anwendungsentwicklung, Hardware-Grundlagen, Netzwerkinfrastrukturen, Windows &amp; Linux Betriebssysteme und strukturierte Softwareentwicklung.</p>
+                        <span class="timeline-badge"><i class="fa-solid fa-circle-check"></i> Bestanden</span>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item right completed">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jan 2026 - Feb 2026</span>
+                        <h3>Java-Grundlagen &amp; SQL</h3>
+                        <p>Einstieg in Java und prozedurale Programmierung, Datenbankdesign und Abfragen mit SQL (Datenbanken I).</p>
+                        <span class="timeline-badge"><i class="fa-solid fa-circle-check"></i> Bestanden</span>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item left completed">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Mär 2026 - Mai 2026</span>
+                        <h3>Säulen der OOP &amp; Web-Basics</h3>
+                        <p>Objektorientierte Programmierung in Java, Datenmodellierung mit UML, Grundlagen von Web-Anwendungen (HTML5/CSS3/PHP).</p>
+                        <span class="timeline-badge"><i class="fa-solid fa-circle-check"></i> Bestanden</span>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 4 -->
+                <div class="timeline-item right in-progress">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jun 2026 - Aug 2026</span>
+                        <h3>Komplexe Java-Anwendungen &amp; Tools</h3>
+                        <p>Fortgeschrittenes Java, Arbeit mit Datenbankverbindungen (JDBC), Dateiverarbeitung und Streams sowie fortgeschrittene Entwicklungs-Werkzeuge.</p>
+                        <span class="timeline-badge active"><i class="fa-solid fa-spinner fa-spin"></i> Aktuell</span>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 5 -->
+                <div class="timeline-item left highlight-prak">
+                    <div class="timeline-content">
+                        <span class="timeline-date">25.08.2026 - 25.03.2027</span>
+                        <h3>6-monatiges Betriebspraktikum</h3>
+                        <p><strong>Praktischer Einsatz im Partnerbetrieb.</strong> Ziel ist die Integration in den laufenden Entwicklungs-Workflow, Mitarbeit an echten Projekten und Ausarbeitung des IHK-Abschlussprojektes.</p>
+                        <span class="timeline-badge target"><i class="fa-solid fa-star"></i> Gesucht!</span>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 6 -->
+                <div class="timeline-item right planned">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Apr 2027 - Sept 2027</span>
+                        <h3>CI/CD, Web-Frameworks &amp; IHK-Prüfung</h3>
+                        <p>Umgang mit Git-Pipelines (CI/CD), modernen JavaScript-Frameworks (React/Vue), Microservices sowie intensive IHK-Prüfungsvorbereitung und mündliche Prüfung.</p>
+                        <span class="timeline-badge future"><i class="fa-solid fa-hourglass-start"></i> Geplant</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Kontakt</span>
+                <h2>Lassen Sie uns ins Gespräch kommen!</h2>
+                <p class="section-intro">Ich freue mich über Anfragen für ein persönliches Kennenlernen oder Vorstellungsgespräch für mein anstehendes Betriebspraktikum.</p>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h3>E-Mail</h3>
+                            <p><a href="mailto:kaboom.studios.dev@gmail.com">kaboom.studios.dev@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h3>Standort</h3>
+                            <p>51570 Windeck, Nordrhein-Westfalen</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fa-solid fa-file-pdf"></i>
+                        <div>
+                            <h3>Bewerbungsunterlagen</h3>
+                            <p>Laden Sie meinen Lebenslauf direkt als PDF herunter:</p>
+                            <a href="assets/documents/lebenslauf.pdf" class="btn btn-secondary btn-sm" download><i class="fa-solid fa-download"></i> Lebenslauf downloaden</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>Nachricht senden</h3>
+                    <p>Da es sich um eine statische Website handelt, können Sie mich am besten direkt per E-Mail kontaktieren. Klicken Sie einfach auf den Button, um Ihr E-Mail-Programm zu öffnen:</p>
+                    <a href="mailto:kaboom.studios.dev@gmail.com?subject=Bewerbung%20Praktikum%20Fachinformatiker" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i> E-Mail an mich schreiben</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Kai Boomgaarden. Alle Rechte vorbehalten.</p>
+            <div class="footer-links">
+                <a href="https://github.com/KaBoomStudios" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#about">Über mich</a>
+                <a href="#timeline">Kursplan</a>
+                <a href="legal.html">Impressum &amp; Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
