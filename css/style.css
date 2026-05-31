@@ -244,6 +244,11 @@ img {
 
 .nav-cta {
     margin-left: 1rem;
+    color: #030712 !important; /* Force readable dark text on emerald background */
+}
+
+.nav-cta:hover {
+    color: #030712 !important;
 }
 
 .mobile-menu-toggle {
